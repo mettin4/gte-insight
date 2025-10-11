@@ -1,0 +1,43 @@
+{
+  "name": "gteinsight-backend",
+  "version": "1.0.0",
+  "description": "Backend API for GTE Insight - Ready but not connected to frontend",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "echo '⚠️  Backend not started - waiting for GTE mainnet'",
+    "build": "echo '📦 Building backend (not running yet)'",
+    "start": "echo '⚠️  Backend not started - waiting for GTE mainnet'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "pg": "^8.11.3",
+    "redis": "^4.6.10",
+    "ws": "^8.14.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/node": "^20.10.0",
+    "@types/pg": "^8.10.9",
+    "@types/ws": "^8.5.9",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.1",
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "gte",
+    "analytics",
+    "backend",
+    "api"
+  ],
+  "author": "GTE Community",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
+
